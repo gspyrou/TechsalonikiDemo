@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage Title="Universities" 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:TechSalonikiDemo" x:Class="TechSalonikiDemo.MainPage">
+	<StackLayout>
+		<Image  
+			Source="http://upload.wikimedia.org/wikipedia/commons/b/be/World_Association_of_Girl_Guides_and_Girl_Scouts_map.png"/>
+		<Entry  
+			x:Name="SearchParameter"
+			Placeholder="Enter a search term" />
+		<Button 
+			x:Name="SearchButton" 
+			Text="Search"  
+			Clicked="Search_Clicked"/>
+	</StackLayout>
+</ContentPage>
